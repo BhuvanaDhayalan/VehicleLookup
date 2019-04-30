@@ -39,7 +39,7 @@ public void results_for_should_be_displayed(String arg1) throws Throwable {
 	if (driver.findElement(By.xpath("//div[text()='Result for : "+arg1+"']")).isDisplayed() == true)
 	{
 		result = "Pass";
-		System.out.println("      Test Result: valid Vehicle Registraiton Number");
+		System.out.println("      Test Result:"+result+" valid Vehicle Registraiton Number");
 	}
 	
 	} catch(Exception e) {
